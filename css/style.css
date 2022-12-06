@@ -1,0 +1,24 @@
+.root
+{
+    --primario:#9C27B0;
+    --primarioOscuro:#89119d;
+    --secundario:#FFCE00;
+    --secundarioOscuro:#e9bb02;
+    --blanco:#fff;
+    --negro:#000;
+     
+    --fuentePrincipal:  'Staatliches', cursive;
+}
+
+/* Box Sizing */
+html 
+{
+    box-sizing: border-box;
+}
+
+*, *:before, *:after 
+{
+    box-sizing: inherit;
+}
+
+/* Globales */
