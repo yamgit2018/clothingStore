@@ -113,3 +113,20 @@ h3
 {
     color: var(--secundario);
 }
+
+/* Footer */
+.piepagina
+{
+    background-color: var(--primarioOscuro);
+    display: flex;
+    justify-content: center;
+    margin: 3rem 0;
+}
+
+.piepagina__texto
+{
+    font-family: var(--fuentePrincipal);
+    color: var(--blanco);
+    font-size: 2.5rem;
+    text-transform: capitalize;
+}
