@@ -96,7 +96,7 @@ h3
     padding: 1rem 0;
     display: flex;
     justify-content: center;
-    gap: 2rem;
+    /* gap: 2rem; */
 }
 
 .navegacion__enlace
@@ -104,8 +104,13 @@ h3
     font-family: var(--fuentePrincipal);
     color: var(--blanco);
     font-size: 3rem;
-    /* margin-right: 2rem; */
+    margin-right: 2rem;
 
+}
+
+.navegacion__enlace:last-of-type
+{
+    margin-right: 0;
 }
 
 .navegacion__enlace:hover,
