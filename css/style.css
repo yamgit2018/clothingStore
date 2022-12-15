@@ -135,3 +135,45 @@ h3
     font-size: 2.5rem;
     text-transform: capitalize;
 }
+
+/* Camisetas Grid */
+.gridProductos
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
+}
+
+@media (min-width: 768px) 
+{
+     .gridProductos
+     {
+        grid-template-columns: repeat(3,1fr);
+     }
+}
+
+/* Camisetas */
+.producto
+{
+    background-color: var(--primarioOscuro);
+    padding: 1rem;
+  
+}
+
+.producto__imagen
+{
+    width: 100%;
+}
+
+.producto__nombre
+{
+
+}
+
+.producto__precio
+{
+
+}
+
+
+
