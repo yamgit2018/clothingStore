@@ -223,6 +223,7 @@ h3
     display: grid;
     grid-template-columns: repeat(1,auto);
     gap: 2rem;
+    /* width: auto; */
     /* grid-template-rows: repeat(2,1fr); */
 }
 
@@ -236,12 +237,12 @@ h3
 
 .gridNosotros--imagen
 {
-    min-height: 50rem;
-    background-image: url(../img/nosotros.jpg);
+    /* min-height: 50rem; */
+    /* background-image: url(../img/nosotros.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100%;
-    
+    width: 100%; */
+    width: auto;
 }
 
 
@@ -250,6 +251,7 @@ h3
     .gridNosotros--imagen
     {
         grid-column: 2/3;
+        width: auto;
     }
         
 }
