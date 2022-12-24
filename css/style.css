@@ -257,11 +257,6 @@ h3
 }
  
 
-.gridNosotros--texto
-{
-
-}
-
 
 @media(min-width: 768px)
 {
@@ -272,34 +267,20 @@ h3
     }
 }
 
-
-.gridDetalle
+.bloques
 {
-
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 1rem;
 }
 
-.detalle
+@media (min-width: 768px) 
 {
-
-
+     .bloques
+     {
+        grid-template-columns: repeat(4,1fr);
+        gap: 1rem;
+     }
 }
 
-.detalle--dev
-{
-
-}
-
-.detalle--envio
-{
-
-}
-
-.detalle--calidad
-{
-
-}
-
-.mejorPrecio
-{
-
-}
