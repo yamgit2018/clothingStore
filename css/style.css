@@ -206,7 +206,7 @@ h3
     grid-row: 8/9;
 }
 
-@media (min-width: 786px) 
+@media (min-width: 768px) 
 {
     .grafico--node
     {
@@ -216,15 +216,14 @@ h3
       
 }
 
-/* Nosoros */
+/* Nosotros */
 
 .gridNosotros
 {
     display: grid;
-    grid-template-columns: repeat(1,auto);
-    gap: 2rem;
+    /* grid-template-columns: repeat(1,auto); */
     /* width: auto; */
-    /* grid-template-rows: repeat(2,1fr); */
+    grid-template-rows: repeat(2,auto);
 }
 
 @media(min-width: 768px)
@@ -232,17 +231,18 @@ h3
     .gridNosotros
     {
         grid-template-columns: repeat(2,1fr);
+        gap: 1.5rem;
     }    
 }
 
 .gridNosotros--imagen
 {
-    /* min-height: 50rem; */
+    min-height: 25rem;
     /* background-image: url(../img/nosotros.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%; */
-    width: auto;
+    /* width: auto; */
 }
 
 
